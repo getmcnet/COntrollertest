@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GetMC - Controller Players</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Minecraftia", monospace;
+      background: url("https://eaglercraft.com/img/stone.png") repeat;
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      padding: 20px;
+      font-size: 2em;
+      background-color: rgba(0,0,0,0.7);
+      border-bottom: 4px solid #3c8527;
+    }
+    video {
+      margin: 20px auto;
+      display: block;
+      max-width: 90%;
+      border: 4px solid #3c8527;
+      border-radius: 12px;
+      background: #000;
+    }
+    .play-btn {
+      display: inline-block;
+      margin: 20px;
+      padding: 15px 30px;
+      font-size: 1.5em;
+      background-color: #3c8527;
+      border: 3px solid #000;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #fff;
+      text-shadow: 2px 2px #000;
+      transition: transform 0.2s, background 0.2s;
+    }
+    .play-btn:hover {
+      background-color: #4ca832;
+      transform: scale(1.05);
+    }
+    footer {
+      margin-top: 30px;
+      padding: 15px;
+      background-color: rgba(0,0,0,0.6);
+      border-top: 4px solid #3c8527;
+    }
+  </style>
+</head>
+<body>
+  <header>🎮 GetMC - Controller Players 🎮</header>
+
+  <video autoplay loop muted controls>
+    <source src="https://video.twimg.com/amplify_video/1958118572795809792/vid/avc1/640x360/djRbS6lhVtlY05Pj.mp4?tag=14" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <a class="play-btn" href="https://irv77.github.io/EaglerConsole/demo/" target="_blank">▶ Play</a>
+
+  <footer>
+    <p>Better website for controllers coming soon!</p>
+  </footer>
+<body>
+  <!-- Your page content -->
+
+  <script>
+    const xboxPattern = /Xbox/i;
+    if (xboxPattern.test(navigator.userAgent)) {
+      window.location.href = 'https://youtube.com';
+    }
+  </script>
+</body>
+</body>
+</html>
